@@ -6,3 +6,7 @@ function run() {
 
   target.innerHTML = html;
 }
+
+window.onload = event => {
+  run();
+};
